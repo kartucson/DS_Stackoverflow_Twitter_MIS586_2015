@@ -1,0 +1,58 @@
+id,label,id,modularity,color
+1,classification,1,5,yellow
+2,hadoop,2,3,Dark red
+3,machinelearning,3,5,yellow
+4,pandas,4,5,yellow
+5,scipy,5,5,yellow
+6,statistics,6,6,Purple
+7,timeseries,7,6,Purple
+8,dataframes,8,5,yellow
+9,mongodb,9,4,Light Green
+10,nlp,10,5,yellow
+11,pymongo,11,4,Light Green
+12,regex,12,6,Purple
+13,scikitlearn,13,5,yellow
+14,django,14,4,Light Green
+15,nltk,15,5,yellow
+16,numpy,16,5,yellow
+17,svm,17,5,yellow
+18,cassandra,18,3,Dark red
+19,json,19,4,Light Green
+20,mapreduce,20,3,Dark red
+21,neuralnetwork,21,5,yellow
+22,statsmodels,22,5,yellow
+23,apachespark,23,3,Dark red
+24,bigdata,24,3,Dark red
+25,list,25,2,Dark Blue
+26,scala,26,3,Dark red
+27,dataset,27,2,Dark Blue
+28,dictionary,28,5,yellow
+29,regression,29,6,Purple
+30,hive,30,3,Dark red
+31,visualization,31,1,Green
+32,mongoengine,32,2,Dark Blue
+33,hadoopstreaming,33,3,Dark red
+34,twitter,34,5,yellow
+35,csv,35,3,Dark red
+36,matplotlib,36,5,yellow
+37,correlation,37,6,Purple
+38,textmining,38,6,Purple
+39,randomforest,39,6,Purple
+40,wordnet,40,5,yellow
+41,string,41,5,yellow
+42,textclassification,42,5,yellow
+43,clusteranalysis,43,5,yellow
+44,datamining,44,5,yellow
+45,optimization,45,5,yellow
+46,logisticregression,46,6,Purple
+47,r,47,6,Purple
+48,pyspark,48,3,Dark red
+49,caffe,49,5,yellow
+50,mongodbquery,50,3,Dark red
+51,pybrain,51,2,Dark Blue
+52,flask,52,5,yellow
+53,arrays,53,4,Light Green
+54,database,54,4,Light Green
+55,pca,55,5,yellow
+56,theano,56,5,yellow
+57,python,57,5,yellow
