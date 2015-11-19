@@ -1,0 +1,340 @@
+#######
+db.day1_unique.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.day1_unique.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+
+db.Sep05.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep05.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+
+db.Sep06.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep06.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep07.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep07.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep08.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep08.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep09.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep09.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep10.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep10.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep11.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep11.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep12.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep12.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep13.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep13.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep14.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep14.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep15.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep15.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep16.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep16.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+db.Sep17.find({text: {$regex:/big.*data/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/classification/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/clustering/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/data.*cleaning/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/data.*mining/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/data.*science/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/feature.*selection/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/hadoop/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/logistic.*regression/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/machine.*learning/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/neural.*network/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/nlp/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/predictive.*modeling/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/random.*forest/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/regression/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/svm/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/text.*mining/,$options:"si"}}).count()
+db.Sep17.find({text: {$regex:/time.*series/,$options:"si"}}).count()
+
+
+
+db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/hadoop/i}
+		}},
+		{ $group: { 
+		_id:"$entities.hashtags.text",		
+		count: {$sum: 1} 
+		}}
+		])	
+db.createCollection("Sep04_python")
+
+db.djnNews_filtered.aggregate([
+  {$unwind:"$processed_text.headline_trigrams"},
+  {$group:{_id:"$processed_text.headline_trigrams","num":{$sum:1}}},
+  {$sort:{"num":-1}},
+  {$project: {trigram: "$_id", count: "$num"}},
+  {$out:"new_collection"}
+])
+
+
+db.day1_unique.aggregate([ 
+		{ $match: { 
+		text: {$regex:/python/i}
+		}},
+		{ $group: { 
+		_id:"$entities.hashtags.text",		
+		"count": {$sum: 1} 
+		}},
+		{$project: {hashtags: "$_id", count: "$count"}},
+		{$out:"Sep04_python"}
+		])
+
+
+
+
+
+db.Sep05.find({text: {$regex:/big.*data/,$options:"si"}},{"entities.hashtags.text":1,_id:0}).count()
+
+
+db.Sep05.find({text: {$regex:/python/,$options:"i"}},{"entities.hashtags.text":1,_id:0})
+
+db.Sep05.find({text: {$regex:/python/,$options:"si"}},{"user.id":1,_id:0}).count()
+
+db.Sep05.unique({text: {$regex:/python/,$options:"si"}},{"place":1,_id:0}).count()
+
+
+db.Sep05.find({"user.location":{$ne:null}},{"user.location":1}).count()
+
+
+db.Sep05.aggregate([
+   { "$project": { "entities.hashtags.text":1 }},  
+   { "$unwind": "$entities.hashtags.text" },  
+   { "$group": { "_id": "$entities.hashtags.text" }},
+   { "$group": { "_id": null, "count": { "$sum": 1 } }}
+])
+
+
+
+db.Sep05.aggregate(
+	{$sort:{"_id":-1}}, 
+	{$match: {"entities.hashtags.text":{$exists:true}}}, 
+	{$limit:10000},
+	{$unwind:"$entities.hashtags"}, 
+	{$project : {"entities.hashtags.text":1,"_id":0}}, 
+	{$group:{"_id":{$toLower:"$entities.hashtags.text"}, count : { $sum : 1 }}}, 
+	{$sort:{"count":-1}}, 
+	{$limit:10})
+
+

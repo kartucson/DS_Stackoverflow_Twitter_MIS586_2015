@@ -1,0 +1,91 @@
+db.Sep05.aggregate([
+{$match:{"retweeted_status":{$exists:true}}},
+{$group:{_id:{"user.id":"$user.id","retweeted_status.user.id":"$retweeted_status.user.id"}, count:{$sum:1}}},
+{$project:{retweet_count:1,
+"user.id":1,
+"user.followers_count":1,
+"user.friends_count":1,
+"user.name":1,
+"user.verified":1,
+"retweeted_status.user.id":1,
+"retweeted_status.user.followers_count":1,
+"retweeted_status.user.friends_count":1,
+"retweeted_status.user.name":1,
+"retweeted_status.user.verified":1,
+_id:0}}
+])
+
+{"retweeted_status":{$exists:true}},{"user.id":1,,"user.id":1,,"retweeted_status.user.id":1,,_id:0})
+
+db.Sep05.
+retweet_count:1,
+"user.id":1,
+"user.followers_count":1,
+"user.friends_count":1,
+"user.name":1,
+"user.verified":1,
+"retweeted_status.user.id":1,
+"retweeted_status.user.followers_count":1,
+"retweeted_status.user.friends_count":1,
+"retweeted_status.user.name":1,
+"retweeted_status.user.verified":1,
+_id:0
+
+
+db.Sep05.aggregate([
+{$match:{"retweeted_status":{$exists:true}}},
+{$project:{"user.id_str":1,"retweeted_status.user.id_str":1,
+_id:0}},
+{$group:{_id:{"user.id":"$user.id_str","retweeted_status.user.id":"$retweeted_status.user.id_str"}, count:{$sum:1}}}
+])
+
+
+
+
+db.Sep05.aggregate([
+{$match:{"retweeted_status":{$exists:true}}},
+{$group:{_id:{"user.id":"$user.id_str"}},followers}
+{$group:{_id:{"user.id":"$user.id_str","retweeted_status.user.id":"$retweeted_status.user.id_str"}, count:{$sum:1}}}
+])
+
+
+#############################################################################
+#############################################################################
+----------------- QUERIES FOR R JAVA PYTHON USER TO USER NW -----------------
+#############################################################################
+#############################################################################
+
+
+
+db.Sep05.aggregate([
+	{$match:
+		{$and:
+			[
+				{"retweeted_status":{$exists:true}}, 
+				{text: {$regex:/python/i}}
+			]
+		}
+	},
+	{$group:
+		{	_id:{"user.id":"$user.id_str","retweeted_status.user.id":"$retweeted_status.user.id_str"}, 
+			count:{$sum:1}
+		}
+	}
+]);
+
+
+mongoexport -d eye2data -c Sep05 -q 'db.Sep05.aggregate([
+	{$match:
+		{$and:
+			[
+				{"retweeted_status":{$exists:true}}, 
+				{text: {$regex:/python/i}}
+			]
+		}
+	},
+	{$group:
+		{	_id:{"user.id":"$user.id_str","retweeted_status.user.id":"$retweeted_status.user.id_str"}, 
+			count:{$sum:1}
+		}
+	}
+])' --out exportdir/myRecords.json

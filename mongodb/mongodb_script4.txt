@@ -1,0 +1,18 @@
+mongo "s1.js">Sep04_users_R.txt
+mongo "s2.js">Sep05_users_R.txt
+mongo "s3.js">Sep06_users_R.txt
+mongo "s4.js">Sep07_users_R.txt
+mongo "s5.js">Sep08_users_R.txt
+mongo "s6.js">Sep09_users_R.txt
+mongo "s7.js">Sep10_users_R.txt
+mongo "s8.js">Sep11_users_R.txt
+mongo "s9.js">Sep12_users_R.txt
+mongo "s10.js">Sep13_users_R.txt
+mongo "s11.js">Sep14_users_R.txt
+mongo "s12.js">Sep15_users_R.txt
+mongo "s13.js">Sep16_users_R.txt
+mongo "s14.js">Sep17_users_R.txt
+
+
+
+type Sep04_users_R.txt Sep05_users_R.txt Sep06_users_R.txt Sep07_users_R.txt Sep08_users_R.txt Sep09_users_R.txt Sep10_users_R.txt Sep11_users_R.txt Sep12_users_R.txt Sep13_users_R.txt Sep14_users_R.txt Sep15_users_R.txt Sep16_users_R.txt Sep17_users_R.txt > users_R.txt

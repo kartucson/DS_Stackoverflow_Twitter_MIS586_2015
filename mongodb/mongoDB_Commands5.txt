@@ -1,0 +1,33 @@
+C:\Program Files\MongoDB\Server\3.0\bin>mongoexport -db eye2data -c datascience_090415 -q '{followers_count:{$gt:100000}}' -o hundred_grand_club.json
+
+
+mongoexport --db eye2data --collection eye2data.datascience_090415 --type=csv --fields "id1,followers_count" --query "{followers_count:{$gt:1000}}" --out test1.csv
+
+mongoexport --db eye2data --collection eye2data.datascience_090415 --type=csv --fields "id" --query "{favorite_count:{$gt:10}}" --out test1.csv
+
+
+mongoexport --db eye2data --collection eye2data.datascience_090415 --query "{'user':{'followers_count':{$gt:100}}}" --out test1.json
+
+favorite_count
+
+#exporting data
+mongoexport --db eye2data --collection datascience_090415 -f "text"  -q '{"favorite_count":{$gt:100}}' --out test2.json
+mongoexport --db eye2data --collection datascience_090415 -f "text"  -q '{"name": /python/}' --out test2.csv
+
+users = database name, contacts = table/document name, contacts.csv= export file name
+
+db.users.find({"name": /m/})
+
+db.datascience_090415.find({"text": /python/})
+
+eye2data.datascience_090415.find({ favorite_count: { $gt: 25 } })
+
+
+Sept 17
+Users-36089
+Tweets-76736
+
+Python-683+9+27
+Java-684+12+11
+R-277+13+3
+URLs-64303

@@ -1,0 +1,359 @@
+db.createCollection("Sep17")
+db.Sep17.createIndex({id:1},{unique:true})
+db.datascience_090415.find({created_at: /.*Sep 17.*/},{}).forEach(function(e){
+   db.Sep17.insert(e);
+})
+
+
+db.Sep17.distinct("user.id_str").length
+db.Sep17.count()
+
+
+	db.Sep17.aggregate([
+		{$group:{
+			_id:{geo_enabled:"$geo_enabled"
+			},
+			count:{
+			$sum:1
+			}
+		}}])
+		
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/python/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+		
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^python/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/python$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/java/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^java/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/java$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+	
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/ r /i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+			
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^r /i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/ r$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep17.aggregate([ 
+		{ $match: { 
+		text: {$regex:/http/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+
+db.createCollection("Sep18")
+db.Sep18.createIndex({id:1},{unique:true})
+db.datascience_090415.find({created_at: /.*Sep 18.*/},{}).forEach(function(e){
+   db.Sep18.insert(e);
+})
+
+
+db.Sep18.distinct("user.id_str").length
+db.Sep18.count()
+
+
+	db.Sep18.aggregate([
+		{$group:{
+			_id:{geo_enabled:"$geo_enabled"
+			},
+			count:{
+			$sum:1
+			}
+		}}])
+		
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/python/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+		
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^python/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/python$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/java/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^java/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/java$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+	
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/ r /i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+			
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^r /i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/ r$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep18.aggregate([ 
+		{ $match: { 
+		text: {$regex:/http/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+
+db.createCollection("Sep16")
+db.Sep16.createIndex({id:1},{unique:true})
+db.datascience_090415.find({created_at: /.*Sep 16.*/},{}).forEach(function(e){
+   db.Sep16.insert(e);
+})
+
+
+db.Sep16.distinct("user.id_str").length
+db.Sep16.count()
+
+
+	db.Sep16.aggregate([
+		{$group:{
+			_id:{geo_enabled:"$geo_enabled"
+			},
+			count:{
+			$sum:1
+			}
+		}}])
+		
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/python/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+		
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^python/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/python$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/java/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])	
+	
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^java/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/java$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+	
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/ r /i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+			
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/^r /i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/ r$/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
+		
+	db.Sep16.aggregate([ 
+		{ $match: { 
+		text: {$regex:/http/i}
+		}},
+		{ $group: { 
+		_id:'', 
+		count: {$sum: 1} 
+		}}
+		])
